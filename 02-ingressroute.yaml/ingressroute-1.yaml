@@ -4,6 +4,7 @@ apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
   name: whoamiv1
+  namespace: app
 spec:
   entryPoints:
     - websecure
